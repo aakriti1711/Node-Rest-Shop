@@ -1,0 +1,24 @@
+{
+  "name": "node-rest-shop",
+  "version": "1.0.0",
+  "description": " NodeJS Restful API Tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aakriti1711/Node-Rest-Shop.git"
+  },
+  "keywords": [
+    "Node",
+    "Rest",
+    "API"
+  ],
+  "author": "aakriti gangwal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aakriti1711/Node-Rest-Shop/issues"
+  },
+  "homepage": "https://github.com/aakriti1711/Node-Rest-Shop#readme"
+}
