@@ -7,8 +7,13 @@ router.get('/', (req, res, next) => {
     });
 });
 router.post('/', (req, res, next) => {
+    const order = {
+        productId: req.body.productId,
+        quanity: req.body.quanity
+    }
     res.status(201).json({
-        message: ' Handling post request to /order Saving Order'
+        message: ' Handling post request to /order Saving Order',
+        order: order
     });
 });
 
