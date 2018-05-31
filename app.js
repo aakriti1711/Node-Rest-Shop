@@ -2,11 +2,15 @@ const express = require('express');
 const app = express();
 const morgan = require('morgan');
 const bodyParser = require('body-parser');
+const mongoose = require('mongoose');
+
 const productRoutes = require('./api/routes/product');
 const orderRoutes = require('./api/routes/order');
 
+mongoose.connect('mongodb://localhost/nodeShop'); 
+
 // app.use((req,res,next)=>{
-//     res.status(200).json({ 
+//     res.status(200).json({   
 //         message:'It works'
 //     });
 // });
