@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/aakriti1711/Node-Rest-Shop/issues"
   },
-  "homepage": "https://github.com/aakriti1711/Node-Rest-Shop#readme"
+  "homepage": "https://github.com/aakriti1711/Node-Rest-Shop#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
