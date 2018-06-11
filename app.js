@@ -18,6 +18,7 @@ mongoose.connect('mongodb://localhost/nodeShop');
 //Morgan used for logging
 
 app.use(morgan('dev'));
+app.use('/uploads',express.static('uploads'));
 
 app.use(bodyParser.urlencoded({
     extended: false
