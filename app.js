@@ -3,6 +3,7 @@ const app = express();
 const morgan = require('morgan');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
+const userRoutes = require('./api/routes/user');
 
 const productRoutes = require('./api/routes/product');
 const orderRoutes = require('./api/routes/order');
@@ -44,6 +45,7 @@ app.use((req, res, next) => {
 
 app.use('/products', productRoutes);
 app.use('/orders', orderRoutes);
+app.use('/user',userRoutes);
 
 
 // Error Handling for unknown routes
